@@ -12,7 +12,7 @@
 
 
 module bin2bcd (
-	input  logic [7:0]   x,			// value ot be converted
+	input  logic [7:0]   x,			// value to be converted
 	output logic [11:0]  BCD     // BCD digits
 );	
 	 // Concatenation of input and output
